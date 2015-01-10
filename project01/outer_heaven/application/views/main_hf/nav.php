@@ -1,0 +1,63 @@
+
+	
+	<nav class="navbar-inverse" role="navigation">
+	
+		<div class="navbar-header">
+			<a class="navbar-brand" href="<?=base_url()?>index"><img class="logo" src="<?=base_url()?>css/img/mini-logo.png"></a>
+		</div>
+	
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+	
+			<ul class='nav navbar-nav'>
+				<li><a href="<?=base_url()?>index">Inicio</a></li>
+				<li><a href="<?=base_url()?>search/cat">Catalogo</a></li>
+				<li><a href="<?=base_url()?>index/contact">Contacto</a></li>
+				<li><a href="<?=base_url()?>index/faqs">Faqs</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown a futuro<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+						<li class="divider"></li>
+						<li><a href="#">One more separated link</a></li>
+					</ul>
+				</li>
+			</ul>
+			
+			<ul class="nav navbar-nav navbar-right"> 
+				<form class="navbar-form navbar-left" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Buscar contenido...">
+					</div>
+					<button type="submit" class="btn btn-default">Buscar</button>
+				</form>
+              	
+              	<li class="dropdown">
+					<button class="btn btn-primary dropdown-toggle botonesMargin" data-toggle="dropdown" id="botonIngreso" onclick="window.location='<?=base_url()?>index/singUp'">Registrarse</button>
+				</li>
+				
+				<li class="dropdown">
+					<button class="btn btn-primary dropdown-toggle botonesMargin" data-toggle="dropdown" id="botonIngreso">Ingresar</button>
+					<ul class="dropdown-menu">
+						<li>
+							<form class="form-signin" role="form" id="menuIngreso" action="<?=base_url()?>index/signIn" method="post">
+								<h2 class="form-signin-heading">Por favor, Ingrese su correo y contrase&ntilde;a</h2>
+								<input type="text" name="username" class="form-control" placeholder="Nombre de Usuario" required autofocus>
+								<input type="password" name="password" class="form-control" placeholder="Contrase&ntilde;a" required>
+								<label class="checkbox">
+									<input type="checkbox" value="remember-me"> Recordarme
+								</label>
+								<button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+							</form>
+						</li>
+					</ul>
+				</li>	
+						
+			</ul>
+											
+		</div>
+	
+	</nav>
