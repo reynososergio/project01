@@ -155,6 +155,14 @@
 			$this->db->close();
 			return false;
 		}
+
+		public function test_run(){
+			$this-load('salida.php');
+	
+
+		}
+
+
 	
 	}
 
