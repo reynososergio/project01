@@ -7,6 +7,7 @@
 			<ul>
 				<li>Sergio Ariel Reynoso</li>
 				<li>Lucas Emanuel Jarpa</li>
+				<li> Julio Contreras </li>
 			</ul>
 		</div>
 	</div>

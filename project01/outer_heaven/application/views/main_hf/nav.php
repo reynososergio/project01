@@ -10,7 +10,7 @@
 	
 			<ul class='nav navbar-nav'>
 				<li><a href="<?=base_url()?>index">Inicio</a></li>
-				<li><a href="<?=base_url()?>search/cat">Catalogo</a></li>
+				<li><a href="<?=base_url()?>search/cat">Informacion</a></li>
 				<li><a href="<?=base_url()?>index/contact">Contacto</a></li>
 				<li><a href="<?=base_url()?>index/faqs">Faqs</a></li>
 				<li class="dropdown">
@@ -50,7 +50,7 @@
 								<label class="checkbox">
 									<input type="checkbox" value="remember-me"> Recordarme
 								</label>
-								<button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+								<button class="btn btn-lg btn-primary btn-block" type="submit">Iniciar Sesion </button>
 							</form>
 						</li>
 					</ul>
