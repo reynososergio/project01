@@ -3,11 +3,11 @@
 <div class="container footer">
 	<div class="row">
 		<div class="col-md-3">
-			First site for nothing
+			Team 
 			<ul>
 				<li>Sergio Ariel Reynoso</li>
 				<li>Lucas Emanuel Jarpa</li>
-				<li> Julio Contreras </li>
+				<li> Julio Contreras </li	>
 			</ul>
 		</div>
 	</div>
