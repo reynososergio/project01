@@ -10,19 +10,19 @@
 	
 			<ul class='nav navbar-nav'>
 				<li><a href="<?=base_url()?>index">Inicio</a></li>
-				<li><a href="<?=base_url()?>search/cat">Informacion</a></li>
-				<li><a href="<?=base_url()?>index/contact">Contacto</a></li>
-				<li><a href="<?=base_url()?>index/faqs">Faqs</a></li>
+				<li><a href="<?=base_url()?>search/cat">Nuevo Proyecto</a></li>
+				<li><a href="<?=base_url()?>index/contact">Graficar</a></li>
+				<li><a href="<?=base_url()?>index/faqs">Manual</a></li>
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown a futuro<span class="caret"></span></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Herramientas <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">Action</a></li>
-						<li><a href="#">Another action</a></li>
-						<li><a href="#">Something else here</a></li>
+						<li><a href="#">Analizar red</a></li>
+						<li><a href="#">Monitorear paquetes</a></li>
+						<li><a href="#">Configuracion</a></li>
 						<li class="divider"></li>
-						<li><a href="#">Separated link</a></li>
+						<li><a href="#"> Usar sockets</a></li>
 						<li class="divider"></li>
-						<li><a href="#">One more separated link</a></li>
+						<li><a href="#"> </a></li>
 					</ul>
 				</li>
 			</ul>
