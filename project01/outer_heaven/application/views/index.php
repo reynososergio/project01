@@ -20,7 +20,7 @@
 						<!-- Carousel items -->
 										
 						<div class="carousel-inner" role="listbox">
-							<div class="active item"><img  src="<?=base_url()?>css/img/gongs/image1.jpg" alt="banner1" /></div>
+							<div class="active item"><img  src="css/img/gongs/image1.jpg" alt="banner1" /></div>
 							<div class="item"><img  src="css/img/gongs/image2.jpg" alt="banner2" /></div>
 							<div class="item"><img  src="css/img/gongs/image3.jpg" alt="banner3"/></div>
 							<div class="item"><img  src="css/img/gongs/image4.jpg" alt="banner4"/></div>
