@@ -151,6 +151,14 @@
 			}
 			return false;
 		}
+
+		public function test_run(){
+			$this-load('salida.html');
+	
+
+		}
+
+
 	
 	}
 
