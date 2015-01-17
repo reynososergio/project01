@@ -1,4 +1,4 @@
-
+		
 	
 	<nav class="navbar-inverse" role="navigation">
 	
@@ -28,12 +28,7 @@
 			</ul>
 			
 			<ul class="nav navbar-nav navbar-right"> 
-				<form class="navbar-form navbar-left" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Buscar contenido...">
-					</div>
-					<button type="submit" class="btn btn-default">Buscar</button>
-				</form>
+				
               	
               	<li class="dropdown">
 					<button class="btn btn-primary dropdown-toggle botonesMargin" data-toggle="dropdown" id="botonIngreso" onclick="window.location='<?=base_url()?>index/singUp'">Registrarse</button>
