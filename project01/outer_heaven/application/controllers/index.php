@@ -153,7 +153,7 @@
 		}
 
 		public function test_run(){
-			$this-load('salida.html');
+			$this-load('salida.php');
 	
 
 		}
