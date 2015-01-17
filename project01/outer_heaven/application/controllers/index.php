@@ -1,4 +1,4 @@
-<?
+<?php
 
 	class Index extends CI_Controller{
 		
@@ -62,6 +62,7 @@
 			
 			$data_reg['reg_form_action'] = base_url().'index/singUp';
 			$data_reg['provincias'] = $this->outer_heaven->getProvincias();
+			$this->db->close();
 			$this->load->view('singUp',$data_reg);
 			$this->load->view('main_hf/footer');
 		}
@@ -137,6 +138,7 @@
 		}
 
 		public function ciudades(){
+			$this->load->database();
 			if(!$this->input->is_ajax_request()){
 				show_404();
 			}else{
@@ -148,7 +150,9 @@
 					$html .= '<option value="'.$ciudad->id.'" '. $sel .'>'.$ciudad->nombre.'</option>';
 				}
 				echo $this->input->post('ciu') . $html;
+				$this->db->close();
 			}
+			$this->db->close();
 			return false;
 		}
 	

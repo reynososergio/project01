@@ -82,9 +82,9 @@
 										<label for="reg_provincia"><?=lang('reg_provincia_label')?> </label>
 										<select id="reg_provincia" name="reg_provincia">
 											<option value="-1" selected="selected">--------------</option>
-											<?foreach($provincias as $provincia):?>
+											<?php foreach($provincias as $provincia):?>
 												<option value="<?=$provincia->id?>" <?=set_select('reg_provincia', $provincia->id); ?>><?=$provincia->nombre?></option>
-											<?endforeach;?>
+											<?php endforeach;?>
 										</select>
 										<?=form_error('reg_provincia','<div class="alert alert-danger">','</div>')?>
 									</div>

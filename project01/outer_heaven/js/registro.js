@@ -3,7 +3,7 @@ $(document).ready(function(){
 		$.ajax({
 			async: true,
 			type: "POST",
-			url: "http://localhost/ci-example/registro/ciudades",
+			url: "http://localhost/outer_heaven/index/ciudades",
 			data: {
 				'id_provincia' : $('#reg_provincia').val(),
 				'ciu' : $('#reg_ciudad_temporal').val(),
