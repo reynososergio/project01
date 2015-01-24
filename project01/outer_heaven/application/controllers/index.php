@@ -157,7 +157,7 @@
 		}
 
 		public function test_run(){
-			$this-load('salida.php');
+			$this-load('salida');
 	
 
 		}
