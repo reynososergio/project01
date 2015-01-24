@@ -9,10 +9,10 @@
 		<div class="collapse navbar-collapse navbar-ex1-collapse">
 	
 			<ul class='nav navbar-nav'>
-				<li><a href="<?=base_url()?>index">Inicio</a></li>
-				<li><a href="<?=base_url()?>search/cat">Nuevo Proyecto</a></li>
-				<li><a href="<?=base_url()?>index/contact">Graficar</a></li>
-				<li><a href="<?=base_url()?>index/faqs">Manual</a></li>
+				<li><a href="index.php/index">Inicio</a></li>
+				<li><a href="index.php/search/cat">Nuevo Proyecto</a></li>
+				<li><a href="index.php/index/contact">Graficar</a></li>
+				<li><a href="index.php/index/faqs">Manual</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Herramientas <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
