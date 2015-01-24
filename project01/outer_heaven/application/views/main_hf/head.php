@@ -1,7 +1,7 @@
 <head>
 	
 	<meta charset="utf-8">
-	<title><?=$title?></title>
+	<title> Herramientas de networking usando PHP </title>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?=base_url()?>css/bootstrapCustom.css">
 	<link rel="stylesheet" type="text/css" href="<?=base_url()?>css/signin.css">
